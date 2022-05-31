@@ -1,0 +1,59 @@
+*{
+    margin: 1px;
+    padding: 1px;
+    color: black;
+    font-family: sans-serif;
+	box-sizing: border-box;
+  }
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(expenses_bg.webp);
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+h1{
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+}
+
+h4{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+
+.links{
+    margin-top: 50px;
+}
+
+.links ul{
+    list-style-type: none;
+    margin: 5px;
+    padding: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.links ul li{
+    display: inline;
+}
+
+.links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 4px;
+    padding: 9px 16px;
+    background-color: #303134; 
+    border-radius: 3px;   
+    border: 1px solid #303134;
+}
+
+.links ul li a:hover{
+    border: 1px solid #5f6368;
+}
+
