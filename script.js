@@ -93,6 +93,10 @@ function updateValues() {
   money_minus.innerText = `Rs${expense}`;
 }
 
+function reset(){
+  localStorage.clear();
+}
+
 // Remove transaction by ID
 function removeTransaction(id) {
   transactions = transactions.filter(transaction => transaction.id !== id);

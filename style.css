@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
 body {
 	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(loginbg.jpg);
 	display: flex;
@@ -9,7 +11,7 @@ body {
 }
 
 *{
-	font-family: sans-serif;
+	font-family: 'Lato', sans-serif;
 	box-sizing: border-box;
 }
 
@@ -85,3 +87,23 @@ h1 {
 .ca:hover {
 	text-decoration: underline;
 } 
+
+.home {
+	margin: 5px 0 40px 80%;
+}
+
+.home a {
+  background-color: transparent;
+  color: hsl(0, 0%, 100%);
+  border: 1px solid white;
+  padding: 6px 22px;
+  border-radius: 2px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+}  
+
+.home a:hover {
+	background-color: white;
+	color: black;
+}

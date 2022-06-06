@@ -18,7 +18,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
      <div class="links">
             <ul>
                 <li><a href="expense_tracker.html">Expense Tracker</a></li>
-                <span><li><a href="logout.php">Logout</a></li></span>
+                <!-- <span><li><a href="logout.php">Logout</a></li></span> -->
             </ul>
      </div>
 </body>
